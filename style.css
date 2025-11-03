@@ -23,18 +23,22 @@ Grey 900: hsl(0, 0%, 8%)
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: "Inter", sans-serif;
     background-color: var(--cinza3);
+    min-height: 100vh;
 }
 
 main {
     width: 270px;
     background-color: var(--cinza2);
     padding: 30px;
-    margin: auto;
-    margin-top: 80px;
     text-align: center;
     border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 img {
@@ -91,8 +95,9 @@ ul li a:hover {
 }
 
 footer {
-    margin-top: 85px;
     color: rgba(255, 255, 255, 0.664);
+    font-size: 11em;
+    text-align: center;
 }
 
 .attribution { 
