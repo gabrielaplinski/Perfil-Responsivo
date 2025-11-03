@@ -67,13 +67,17 @@ a {
 ul {
     padding: 0px;
     margin-top: 22px;
+    list-style: none;
 }
 
-a > li {
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    display: block;
     color: rgba(255, 255, 255, 0.767);
-    list-style: none;
     background-color: var(--cinza1);
-    margin: 10px;
     padding: 10px;
     border-radius: 8px;
     font-size: 12px;
@@ -81,7 +85,7 @@ a > li {
     transition-duration: .5s;
 }
 
-main li:hover {
+ul li a:hover {
     background-color: var(--verde1);
     color: var(--cinza1);
 }
